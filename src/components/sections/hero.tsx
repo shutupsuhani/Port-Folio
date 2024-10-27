@@ -63,7 +63,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
 
-            <Button size="lg" asChild>
+            <Button  size="lg" asChild>
               <a href="#contact" className="gap-2">
                 Get in Touch <ArrowRight className="w-4 h-4" />
               </a>
@@ -73,7 +73,7 @@ export function Hero() {
                 <Github className="w-4 h-4" /> 
               </a>
             </Button>
-            <Button className="bg-blue-800" size="lg" variant="outline" asChild>
+            <Button className="bg-blue-800 " size="lg" variant="outline" asChild>
               <a href="https://www.linkedin.com/in/suhanisahu/" target="_blank" rel="noopener noreferrer" className="gap-2">
                 <Linkedin className="w-4 h-4" /> 
               </a>

@@ -73,9 +73,7 @@ export function Navbar() {
           }`}
         >
           <div className="flex items-center flex-col justify-between">
-          <a href="/" className="-m-1.5 p-1.5 text-lg sm:text-xl font-semibold font-serif text-primary">
-            Suhani Sahu
-            </a>
+             
             <Button
               variant="ghost"
               className="-m-2.5  rounded-md p-2.5 text-primary"
