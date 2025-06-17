@@ -20,7 +20,7 @@ export function Hero() {
     <section className="relative min-h-screen font-serif flex bg-primary/10 items-center justify-center py-20 px-6 lg:px-8">
       {/* Background 3D Scene */}
       
-      <Scene/>
+        <Scene/>
       <motion.div
         className="max-w-7xl mx-auto text-center lg:text-center items-center"
         ref={ref}

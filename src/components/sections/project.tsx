@@ -9,19 +9,28 @@ import { useInView } from "react-intersection-observer";
 
 const projects = [
   {
-    title: "News4U",
-    description: " A real-time News Web Application which updates with daily realtime news and real-time Temperature .",
-    tech: ["React Js", "Redux Js","Firebase", "News API", "Temperature API"],
+    title: "Content-Flow-AI",
+    description: " A real-time Content Generator Web Application for Content Creators and Effective for real time use.",
+    tech: ["React Js", "Next Js","Clerk Authentication","Gemini", "Rest API", "Razor Pay Payment Gateway","Drizzle ORM"],
     link: "https://github.com/shutupsuhani/News4U",
-    github: "https://github.com/shutupsuhani/News4U"
+    github: "https://content-flow-ai.vercel.app"
   },
   {
-    title: "Shoppers",
-    description: "A real Time Shopping Web Application.",
-    tech: ["React Js", "Redux Js", "Tailwind CSS", "Firebase"],
-    link: "https://shopwithshoppers1.netlify.app/",
-    github: "https://github.com/shutupsuhani/Shoppers-Shopping-App"
+    title: "Quick-Prep",
+    description: "A real Time Mock Interview Full Stack Web Application.",
+    tech: ["React Js", "Next Js","Clerk", "Tailwind CSS","Gemini","Drizzle ORM"],
+    link: "https://quick-prep-delta.vercel.app/",
+    github: "https://github.com/shutupsuhani/quick-prep/"
   },
+   
+  {
+    title: "Efficio",
+    description: "A Task Tracker and Management Full Stack Web Application.",
+    tech: ["React Js", "Next Js","Clerk", "Tailwind CSS","Mongo DB"],
+    link: "https://task-management-app-y9ga.vercel.app/",
+    github: "https://github.com/shutupsuhani/Task-Management-App"
+  },
+
   {
     title: "Social Media Web Application",
     description: "Enterprise task management system with real-time updates and team collaboration features.",
@@ -59,7 +68,7 @@ export function Projects() {
   };
 
   return (
-    <section id="projects" className="py-16 px-6 lg:px-8 font-serif max-w-7xl mx-auto">
+    <section id="projects" className="py-16 text-primary px-6 lg:px-8 font-serif max-w-7xl mx-auto">
       <motion.div
         ref={ref}
         initial="hidden"
@@ -106,7 +115,7 @@ export function Projects() {
         animate={inView ? "visible" : "hidden"}
         variants={containerVariants}>
           <Button size="lg" asChild>
-              <a href="https://github.com/shutupsuhani/" className="gap-2">
+              <a href="https://github.com/shutupsuhani/" className="dark:text-white text-black gap-2">
                  More Projects <ArrowRight className="w-4 h-4" />
               </a>
             </Button>

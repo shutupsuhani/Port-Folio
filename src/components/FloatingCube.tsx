@@ -25,7 +25,7 @@ export function FloatingCube() {
       scale={scale}
     >
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color="#5686F5" />
+      <meshStandardMaterial color="#8600D8" />
     </animated.mesh>
   )
 }

@@ -45,7 +45,7 @@ export function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className="text-base lg:text-lg font-semibold font-serif leading-6 text-blue-600 hover:text-blue-400 transition-colors"
+              className="text-base lg:text-lg font-semibold font-serif leading-6 text-primary hover:text-blue-400 transition-colors"
             >
               {item.name}
             </a>

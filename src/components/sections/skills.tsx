@@ -37,7 +37,6 @@ const skillCategories = [
     skills: [
       { icon: <SiNodedotjs />, name: "Node.js" },
       { icon: <SiExpress />, name: "Express" },
-      { icon: <SiSpringboot />, name: "Spring Boot" },
       { icon: <SiFirebase />, name: "Firebase" },
       { icon: <SiPostman />, name: "Postman" },
     ]

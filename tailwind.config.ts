@@ -10,9 +10,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: '#3498db',
-        'background-light': "#ffffff", // Light mode background
-        'background-dark': "#121212",  // Dark mode background
+        primary: '#8600D8',
+        'background-light': "##C092DD", // Light mode background
+        'background-dark': "#58187F",  // Dark mode background
       },
     },
   },
