@@ -5,18 +5,22 @@ import { ArrowRight, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useInView } from "react-intersection-observer";
 import { TypewriterEffect } from "../ui/typewritereffect";
-//import { Scene } from "../scene";  // Import Scene component
+import { Scene } from "../scene";  // Import Scene component
 
 export function Hero() {
+
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1
   });
 
+
+
   return (
     <section className="relative min-h-screen font-serif flex bg-primary/10 items-center justify-center py-20 px-6 lg:px-8">
       {/* Background 3D Scene */}
-     
+      
+      <Scene/>
       <motion.div
         className="max-w-7xl mx-auto text-center lg:text-center items-center"
         ref={ref}
@@ -35,7 +39,7 @@ export function Hero() {
             </h1>
 
             <div className="typewriter-wrapper mx-auto max-w-md">
-              <TypewriterEffect />
+                <TypewriterEffect/>
             </div>
           </motion.div>
 
