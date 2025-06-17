@@ -5,7 +5,7 @@ import { ArrowRight, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useInView } from "react-intersection-observer";
 import { TypewriterEffect } from "../ui/typewritereffect";
-import { useEffect , useState } from "react";
+
 
 export function Hero() {
 
