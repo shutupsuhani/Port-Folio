@@ -5,7 +5,7 @@ import { ArrowRight, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useInView } from "react-intersection-observer";
 import { TypewriterEffect } from "../ui/typewritereffect";
-import { Scene } from "../scene";  // Import Scene component
+import { useEffect , useState } from "react";
 
 export function Hero() {
 
@@ -14,13 +14,16 @@ export function Hero() {
     threshold: 0.1
   });
 
+  
+
 
 
   return (
     <section className="relative min-h-screen font-serif flex bg-primary/10 items-center justify-center py-20 px-6 lg:px-8">
       {/* Background 3D Scene */}
-      
-        <Scene/>
+        
+         
+       
       <motion.div
         className="max-w-7xl mx-auto text-center lg:text-center items-center"
         ref={ref}
@@ -33,10 +36,16 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50">
-              Suhani Sahu
-            </h1>
+          >        
+             <h1 className="text-5xl  font-bold text-black leading-tight">
+            <span className="block dark:text-white transform hover:scale-105 transition-transform duration-300">
+              Hi, I'm{' '}
+              <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
+                Suhani
+              </span>
+            </span>
+            
+          </h1>
 
             <div className="typewriter-wrapper mx-auto max-w-md">
                 <TypewriterEffect/>
@@ -78,7 +87,7 @@ export function Hero() {
                 <Github className="w-4 h-4" />
               </a>
             </Button>
-            <Button className="bg-blue-800" size="lg" variant="outline" asChild>
+            <Button className="bg-white/30 backdrop-blur-sm" size="lg" variant="outline" asChild>
               <a href="https://www.linkedin.com/in/suhanisahu/" target="_blank" rel="noopener noreferrer" className="gap-2">
                 <Linkedin className="w-4 h-4" />
               </a>

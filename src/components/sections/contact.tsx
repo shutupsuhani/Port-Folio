@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github,Linkedin,Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useInView } from "react-intersection-observer";
 
