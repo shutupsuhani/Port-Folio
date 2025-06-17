@@ -9,9 +9,9 @@ import { Skills } from "@/components/sections/skills";
 
 export default function Home() {
   return (
-    <>
+  
     
-    <div> 
+    <div className="scrollbar-hide"> 
     <Navbar/>
     <Hero/>
     <About/>
@@ -22,7 +22,7 @@ export default function Home() {
     <Contact/>
     </div>
     
-    </>
+   
     
   );
 }

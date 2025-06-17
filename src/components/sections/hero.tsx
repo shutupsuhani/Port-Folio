@@ -5,6 +5,7 @@ import { ArrowRight, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useInView } from "react-intersection-observer";
 import { TypewriterEffect } from "../ui/typewritereffect";
+import Image from "next/image";
 
 
 export function Hero() {
@@ -95,26 +96,26 @@ export function Hero() {
              
             <Button size="lg" className="bg-black" variant="outline" asChild>
               <a href="https://leetcode.com/u/shutupsuhani" target="_blank" rel="noopener noreferrer" className="gap-2">
-                <img  src="./leetcode.jpg" width={30} height={30}/>
+                <Image alt="name"  src="/leetcode.jpg" width={30} height={30}/>
               </a>
             </Button>
 
             
             <Button size="lg" className="bg-white" variant="outline" asChild>
               <a href="https://codeforces.com/profile/shutupsuhani" target="_blank" rel="noopener noreferrer" className="gap-2">
-                <img src="./codeforces.png" width={30} height={30}/>
+                <Image alt="name" src="/codeforces.png" width={30} height={30}/>
               </a>
             </Button>
 
             <Button size="lg" className="bg-black" variant="outline" asChild>
               <a href="https://medium.com/@shutupsuhani" target="_blank" rel="noopener noreferrer" className="gap-2">
-                <img src="./medium.png" width={30} height={30}/>
+                <Image alt="name" src="/medium.png" width={30} height={30}/>
               </a>
             </Button>
 
             <Button size="lg" className="bg-white" variant="outline" asChild>
               <a href="https://www.codechef.com/users/shutupsuhani" target="_blank" rel="noopener noreferrer" className="gap-2">
-                <img src="./codechef.jpg" width={30} height={30}/>
+                <Image alt="name" src="/codechef.jpg" width={30} height={30}/>
               </a>
             </Button>
 
