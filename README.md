@@ -1,4 +1,4 @@
-https://suhanisahu.vercel.app/
+URL : https://chihiro-me.vercel.app/
 
 Welcome to my portfolio! This project showcases my skills, experience, and projects in a modern and interactive format. It's designed with responsiveness in mind, so it looks great on all devices.
 
